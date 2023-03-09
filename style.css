@@ -1,0 +1,86 @@
+/* Grid 1 */
+.gridOne {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ebebeb;
+}
+.gridOne p:nth-child(2) {
+  color: blue;
+}
+
+/* Grid Two */
+.gridTwo {
+  display: grid;
+  flex: 1;
+  grid-template-columns: 1fr 1fr 2fr;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.gridTwchildOne {
+  background-color: red;
+}
+.gridTwchildTwo {
+  background-color: blue;
+}
+.gridTwchildThree {
+  background-color: yellow;
+}
+
+/* Grid Three */
+
+.gridThree {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  background-color: #ebebeb;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 70px;
+}
+.gridThree .casa img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Grid Four */
+.gridFour {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 500px;
+  margin-bottom: 50px;
+  background-color: green;
+}
+
+#gridFoChildTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*  */
+.gridFive {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 500px;
+  background-color: #ebebeb;
+}
+#gridFiChildTwo img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 45px;
+}
+
+/* Grid Six */
+.gridSix {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-family: "Fredoka One", cursive;
+
+  width: 500px;
+  background-color: lightgray;
+  margin-bottom: 100px;
+}
+.gridSix-Icon i {
+  font-size: 16px;
+  color: black;
+}
